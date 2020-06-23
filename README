@@ -1,0 +1,44 @@
+## Recupérer les fichiers récents
+    git checkout <option>
+
+## Initialiser un projet avec git
+    git config --global user.name ""
+    git config --global user.email "
+
+## Voir les récentes manipulations
+    git status
+
+## Ajouter des fichiers pour faire le commit
+    git add fichier
+
+## Faire un commit
+    git commit
+
+## Voir les commit effectuer
+    git log
+
+## Voir les differences apportes sur un fichier
+    git diff
+
+## Annuler un commit
+    git reset --hard hash_du_commit
+    git reset --soft hash_du_commit // Annule le commit sans apporter les modifications
+
+## Voir une branche
+    git branch
+
+## Créer une branche
+    git checkout -b nom_de_la_branche
+
+## Changer de branche
+    git checkout nom_branche
+
+## Fusionner les branches pour obtenir un projet complet
+    git merge nom_branche
+
+## Supprimer une branche
+    git branch -d nom_branche
+
+## Supprimer une branche non Fusionner
+    git branch -D nom_branche
+
